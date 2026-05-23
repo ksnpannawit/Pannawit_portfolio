@@ -1,0 +1,24 @@
+#include <iostream.h>
+#include <conio.h>
+#include<iomanip.h>
+void main () {
+clrscr();
+int age,height;
+char sex;
+float weight;
+age=21;
+height=174;
+sex='m';
+weight=66.5;
+cout<<setw(59)<<"============================================\n";
+cout<<setw(40)<<"Resume of "<<endl;
+cout<<setw(40)<<"Pannawit " <<endl;
+cout<<setw(50)<<"71/3 M.8 khongkolan" <<endl;
+cout<<setw(59)<<"=============================================\n";
+cout<<setw(50)<<"Personal details"<<endl;
+cout<<setw(40)<<"Sex = "<<sex<<endl;
+cout<<setw(40)<<"Age = "<<age<<endl;
+cout<<setw(40)<<"Height = "<<height<<" cm" <<endl;
+cout<<setw(40)<<"weight = "<<weight<<" kg" <<endl;
+getch();
+}
