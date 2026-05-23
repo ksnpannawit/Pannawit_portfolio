@@ -1,0 +1,22 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{ int i,j;
+i = 1;
+int begin;
+int End;
+clrscr();
+cout<<"Begin : ";
+cin>>begin;
+cout<<"End : ";
+cin>>End;
+while(i<=12){
+	j=begin;
+while(j<=End){
+	cout<<j<<" x "<<i<<" = "<<j*i<<"	";
+	j++;
+	}cout<<endl;
+	i++;
+}
+getch();
+}
