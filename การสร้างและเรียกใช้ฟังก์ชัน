@@ -1,0 +1,29 @@
+#include<iostream.h>
+#include<conio.h>
+
+void ksn();
+
+void main()
+{
+clrscr();
+ksn();
+getch();
+}
+void ksn()
+{
+clrscr();
+int base, height;
+base = 21;
+height = 17;
+cout<<"Base x Height"<<endl;
+cout<<base<<"x"<<height<<endl;
+cout<<"Area Prism = "<<base*height<<endl;
+cout<<"   +-----------+\n";
+cout<<"  /           /|\n";
+cout<<" +----------+  |\n";
+cout<<" |          |  |\n";
+cout<<" |          |  |\n";
+cout<<" |          |  /\n";
+cout<<" +----------+/ \n";
+getch();
+}
