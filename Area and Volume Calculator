@@ -1,0 +1,24 @@
+#include <iostream.h>
+#include <conio.h>
+#include<iomanip.h>
+void main () {
+clrscr();
+int base,height;
+base=21;
+height=17;
+cout<<setw(66)<<"=============================================\n";
+cout<<setw(57)<<"Program Calculate Area Prism\n";
+cout<<setw(66)<<"=============================================\n";
+cout<<setw(50)<<"  +-----------+\n";
+cout<<setw(50)<<" /           /|\n";
+cout<<setw(50)<<"+-----------+ |\n";
+cout<<setw(50)<<"|           | |\n";
+cout<<setw(50)<<"|           | |\n";
+cout<<setw(50)<<"|           | /\n";
+cout<<setw(49)<<"+-----------+/\n";
+cout<<setw(45)<<"Base = "<<base<<endl;
+cout<<setw(46)<<"Height = "<<height<<endl;
+cout<<setw(49)<<"Base x Hieght"<<endl;
+cout<<setw(47)<<"Area Prism = "<<base*height<<endl;
+getch();
+}
