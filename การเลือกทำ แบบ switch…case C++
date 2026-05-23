@@ -1,0 +1,67 @@
+#include <iostream.h>
+#include <conio.h>
+void main()
+{ int first, second;
+char choice;
+clrscr();
+cout<<"Program Calcurate Area \n";
+cout<<"1. Prism Area \n";
+cout<<"2.Square\n";
+cout<<"3. Triangle\n";
+cout<<"Please select your choice <1-3> : ";
+cin>>choice;
+switch(choice)
+{ case '1' :
+clrscr();
+int base, height;
+cout<<"============================================================\n";
+cout<<"                           Prism Area                       \n";
+cout<<"============================================================\n";
+cout<<"Enter Base :  ";
+cin>>base;
+cout<<"Enter Height : ";
+cin>>height;
+cout<<"Base = "<<base<<" Height = "<<height<<endl;
+cout<<"Base x Height\n";
+cout<<"Area Prism = "<<base*height<<endl;
+getch();
+cout<<"\nYou select choice "<<choice<<"Calculate Prism Area\n";
+cout<<"Press any key to end program\n";
+cout<<"=========================================================\n";
+break;
+case '2':
+clrscr();
+int wide, Long;
+cout<<"===========================================================\n";
+cout<<"                       Parallel Square Area                \n";
+cout<<"===========================================================\n";
+cout<<"Enter Wide : ";
+cin>>wide;
+cout<<"Enter Long : ";
+cin>>Long;
+cout<<"Wide = "<<wide<<" Long = "<<Long<<endl;
+cout<<"Wide x Long \n";
+cout<<"Parrallel Squar Area = "<<wide*Long<<endl;
+cout<<"\nYou select choice " <<choice<< "Calculate Square Area\n";
+cout<<"Press any key to end program\n";
+break;
+case '3':
+clrscr();
+int side;
+cout<<"=============================================================\n";
+cout<<"                           Square Area                       \n";
+cout<<"=============================================================\n";
+cout<<"Enter Side : ";
+cin>>side;
+cout<<"Side = "<<side<<endl;
+cout<<"Side x Side";
+cout<<"Square Area = "<<side*side<<endl;
+cout<<"\nYou select " <<choice<< "Calculate Triangle Area\n";
+cout<<"Press any key to end program\n";
+break;
+default:
+cout<<"\nYou select Another choice \a\a\n";
+cout<<"Press any key to end program\n";
+}
+getch();
+}
