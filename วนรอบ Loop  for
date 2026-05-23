@@ -1,0 +1,24 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+int i,num;
+int sum, sum1;
+sum = 0;
+sum1 = 0;
+clrscr();
+for(i=1;i<=19;i+=2)
+	{
+	cout<<i<<" ";
+	sum+=i;
+	}
+cout<<endl;
+for(num=2;num<=20;num+=2)
+	{
+	cout<<num<<" ";
+	sum1+=num;
+	}
+cout<<"\nSummation ODD NUMBER ="<<sum;
+cout<<"\nSummation EVEN NUMBER ="<<sum1;
+getch();
+}
